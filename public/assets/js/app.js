@@ -10,7 +10,7 @@ $(document).ready(function () {
   $(document).scroll(despliegaMenu)
 
   function despliegaMenu(){
-    if(window.scrollY >= 370){
+    if(window.scrollY >= 600){
       $("header").removeClass("nav-wrapper")
     }
     else{

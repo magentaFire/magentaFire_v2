@@ -15,10 +15,16 @@
   width: 40%;
 }
 
-nav ul a {
-  margin: 0 30px;
+nav{ 
+  ul {
+    a{
+      margin: 0 30px;
+    }
+  }
 }
 
-nav .brand-logo.right {
+nav {
+  .brand-logo.right{
     right: 15rem;
+  }
 }
