@@ -1,0 +1,11 @@
+.projects-container {
+  margin: 0;
+}
+
+.progress {
+  background-color: #FFA2D5;
+}
+
+.progress .determinate {
+    background-color: #D32679;
+}

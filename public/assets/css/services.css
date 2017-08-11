@@ -1,0 +1,24 @@
+.service-buttons-space {
+  margin-top: 25px;
+}
+
+.service-paragraph {
+  margin-bottom: 75px;
+  padding: 0 25px 0 25px;
+}
+
+.service-container {
+  margin: 0;
+}
+
+.icons {
+  width: 40%;
+}
+
+nav ul a {
+  margin: 0 30px;
+}
+
+nav .brand-logo.right {
+    right: 15rem;
+}

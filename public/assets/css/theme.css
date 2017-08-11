@@ -1,0 +1,90 @@
+/*
+---Paleta de color:---
+#14191C -- eerie black
+#EEF0F2 -- anti-flash white
+#0E778C -- metallic seaweed
+#D32679 -- magenta
+#222E50 -- space cadet
+*/
+
+.black-font {
+  color: #14191C;
+}
+
+.white-font {
+  color: #EEF0F2;
+}
+
+.turq-font {
+  color: #0E778C;
+}
+
+.magenta-font {
+  color: #D32679;
+}
+
+.blue-font {
+  color: #222E50;
+}
+
+.black-bg {
+  background-color: #14191C;
+}
+
+.white-bg {
+  background-color: #EEF0F2;
+}
+
+.turq-bg {
+  background-color: #0E778C;
+}
+
+.magenta-bg {
+  background-color: #D32679;
+}
+
+.blue-bg {
+  background-color: #222E50;
+}
+
+nav .brand-logo, nav ul a {
+  color: #EEF0F2;
+}
+
+nav {
+  background-color: #D32679;
+}
+
+.background {
+  width: 100vw;
+  height: 800px;
+}
+
+.oswald-font {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.card .card-image .card-title {
+  color: #EEF0F2;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #D32679;
+}
+
+.card .card-action {
+  background-color: #EEF0F2;
+}
+
+.row-no-margin {
+  margin: 0;
+}
+
+h5 {
+  font-weight: 200;
+}
+
+h4 {
+  font-weight: 300;
+}

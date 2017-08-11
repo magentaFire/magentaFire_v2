@@ -1,0 +1,42 @@
+.title-container {
+  position: relative;
+  top: 10vh;
+}
+
+.parrafo-title {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.text-size1 {
+  font-size: 9vw;
+  line-height: 85%;
+}
+
+.text-size2 {
+  font-size: 6.1vw;
+  line-height: 90%;
+}
+
+.text-size3 {
+  font-size: 3.15vw;
+  line-height: 95%;
+}
+
+.scroll-container {
+  position: relative;
+  top: 27vh;
+}
+
+p {
+  font-weight: 200;
+}
+
+.fat {
+  font-weight: 400;
+}
+
+.nav-wrapper {
+  display: none;
+}
