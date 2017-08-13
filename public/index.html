@@ -1,281 +1,285 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <title>magentaFire Portfolio</title>
-</head>
+  <!DOCTYPE html>
+  <html lang="en">
 
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Desarrolladora Front-end Dafne Magenta Luna Casanueva. Diseñadora visual,CDMX; mis intereses se decantan
+  mayormente hacia las artes visuales y diseño, pero también con un alto componente de
+  desarrollo web y programación que mezclo con frecuencia para ofrecer experiencias visuales
+  ricas en contenido e interacción.">
+    <meta keywords="front-end, developer, designer, 3d texture artist, jQuery, Firebase, angular, css3, html5, jacvascript">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>magentaFire Portfolio</title>
+  </head>
 
-  <header class="navbar-fixed magenta-bg nav-wrapper">
-    <nav>
-      <div class="magenta-bg">
-        <a href="#home" class="brand-logo right oswald-font">MAGENTA!</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a class="oswald-font" href="#servicios">Servicios</a></li>
-          <li><a class="oswald-font" href="#proyectos">Proyectos</a></li>
-          <li><a class="oswald-font" href="#habilidades">Habilidades</a></li>
-        </ul>
+  <body>
+
+    <header class="navbar-fixed magenta-bg nav-wrapper">
+      <nav>
+        <div class="magenta-bg">
+          <a href="#home" class="brand-logo right oswald-font">MAGENTA!</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a class="oswald-font" href="#servicios">Servicios</a></li>
+            <li><a class="oswald-font" href="#proyectos">Proyectos</a></li>
+            <li><a class="oswald-font" href="#habilidades">Habilidades</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="background turq-bg scrollspy" id="home">
+        <div>
+          <svg height="100vh" width="100vw" class="svg-container">
+            <g>
+              <polygon points="50,0 250,800 700,800 500,0" class="polygon1">
+              </polygon>
+            </g>
+          </svg>
+
+          <div class="row">
+            <div class="col s12 m5 offset-m2 l4 offset-l2 xl4 offset-xl2 title-container">
+              <div>
+                <p class="white-font oswald-font parrafo-title text-size1">DAFNE</p>
+                <p class="magenta-font oswald-font parrafo-title text-size2">MAGENTA</p>
+                <p class="white-font oswald-font parrafo-title text-size3">LUNA CASANUEVA</p>
+                <p class="white-font">
+                  <span class="fat">Front-end Developer, 3D texture artist, Diseñadora Visual</span>
+                  <br> Habitante de la ciudad de México, mis intereses se decantan mayormente hacia las artes visuales y diseño,
+                  también con un alto componente de desarrollo web y programación que mezclo con frecuencia para ofrecer experiencias
+                  visuales ricas en contenido e interacción.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-  </header>
 
-  <main>
-    <div class="background turq-bg scrollspy" id="home">
-      <div>
-        <svg height="100vh" width="100vw" class="svg-container">
-          <g>
-            <polygon points="50,0 250,800 700,800 500,0" class="polygon1">
-            </polygon>
-          </g>
-        </svg>
-        
+      <!-- Sección servicios -->
+      <div class="row white-bg service-container scrollspy" id="servicios">
         <div class="row">
-          <div class="col s12 m3 offset-m2 title-container">
-            <div>
-              <span class="white-font oswald-font parrafo-title text-size1">DAFNE</span>
-              <span class="magenta-font oswald-font parrafo-title text-size2">MAGENTA</span>
-              <span class="white-font oswald-font parrafo-title text-size3">LUNA CASANUEVA</span>
-              <p class="white-font">
-                <span class="fat">Front-end developer, 3D texture artist, Visual designer</span>
-                <br>
-                Soy una diseñadora visual, vivo en la ciudad de México; mis intereses se decantan
-                mayormente hacia las artes visuales y diseño, pero también con un alto componente de
-                desarrollo web y programación que mezclo con frecuencia para ofrecer experiencias visuales
-                ricas en contenido e interacción.
+          <div class="col 12 m4 offset-m4 center">
+            <h4 class="magenta-font ">Servicios</h4>
+          </div>
+        </div>
+
+        <div class="col s12 m10 offset-m1">
+          <div class="col s12 m4 l4 xl4">
+            <div class="service-paragraph">
+              <div class="icon-container center">
+                <img class="icons" src="./assets/img/icon_webd.png" alt="">
+              </div>
+              <h5 class="magenta-font">Desarrollo web</h5>
+              <p class="blue-font">
+                Cualquiera que sea la solución que requieras, puedo crear experiencias de comunicación y venta orientadas: desde una pequeña
+                página muy concisa hasta sitios elaborados más profundamente con tecnología como HTML5, CSS3, javascript, jQuery,
+                frameworks y consumo de API's.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4 l4 xl4">
+            <div class="service-paragraph">
+              <div class="icon-container center">
+                <img class="icons" src="./assets/img/icon_mari.png" alt="">
+              </div>
+              <h5 class="magenta-font">3D texturing</h5>
+              <p class="blue-font">
+                Con 5 Años de experiencia en texturización digital para VFX fotorrealista, puedo ayudarte a obtener resultados de muy alta
+                calidad en diferentes formatos y salidas que se adecúan a cuaquier motor de render y diferentes pipelines.
+              </p>
+              <div class="center service-buttons-space">
+                <a class="waves-effect waves-light btn white-bg magenta-font" id="btnDemoReel">Demo Reel</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4 xl4">
+            <div class="service-paragraph">
+              <div class="icon-container center">
+                <img class="icons" src="./assets/img/icon_design.png" alt="">
+              </div>
+              <h5 class="magenta-font">Diseño</h5>
+              <p class="blue-font">
+                Experiencias audiovisuales y multimedia dirigidas desde una perspectiva de diseño agudizada mediante práctica laboral constante
+                durante más de 5 años que se conjuntan con un gran nivel técnico.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Sección servicios -->
-    <div class="row white-bg service-container scrollspy" id="servicios">
-      <div class="row">
-        <div class="col 12 m4 offset-m4 center">
-          <h4 class="magenta-font ">Servicios</h4>
-        </div>
-      </div>
-
-      <div class="col s12 m10 offset-m1">
-        <div class="col s12 m4">
-          <div class="service-paragraph">
-            <div class="icon-container center">
-              <img class="icons" src="./assets/img/icon_webd.png" alt="">
-            </div>
-            <h5 class="magenta-font">Desarrollo web</h5>
-            <p class="blue-font">
-              Cualquiera que sea la solución que requieras, puedo crear experiencias de comunicación y venta
-              orientadas: desde una pequeña página muy concisa hasta sitios elaborados más profundamente con tecnología
-              como HTML5, CSS3, javascript, jQuery, frameworks y consumo de API's.
-            </p>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="service-paragraph">
-            <div class="icon-container center">
-              <img class="icons" src="./assets/img/icon_mari.png" alt="">
-            </div>
-            <h5 class="magenta-font">3D texturing</h5>
-            <p class="blue-font">
-              Con 5 Años de experiencia en texturización digital para VFX fotorrealista, puedo ayudarte a obtener
-              resultados de muy alta calidad en diferentes formatos y salidas que se adecúan a cuaquier motor de
-              render y diferentes pipelines.
-            </p>
-            <div class="center service-buttons-space">
-              <a class="waves-effect waves-light btn white-bg magenta-font" id="btnDemoReel">Demo Reel</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="service-paragraph">
-            <div class="icon-container center">
-              <img class="icons" src="./assets/img/icon_design.png" alt="">
-            </div>
-            <h5 class="magenta-font">Diseño</h5>
-            <p class="blue-font">
-              Experiencias audiovisuales y multimedia dirigidas desde una perspectiva de diseño agudizada
-              mediante práctica laboral constante durante más de 5 años que se conjuntan con un gran nivel
-              técnico.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- sección proyectos -->
-    <div class="row white-bg projects-container scrollspy" id="proyectos">
-      <div class="row">
-        <div class="col 12 m4 offset-m4 center">
-          <h4 class="magenta-font">Proyectos</h4>
-        </div>
-      </div>
-
-      <div class="row container">
-       <div class="col s12 m4">
-         <div class="card">
-           <div class="card-image">
-             <img src="./assets/img/proyecto-applove.png">
-           </div>
-           <div class="card-action">
-             <a href="https://github.com/magentaFire/applove_020517">Ir al repositorio en GitHub</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="col s12 m4">
-         <div class="card">
-           <div class="card-image">
-             <img src="./assets/img/proyecto-bootstrap.png">
-           </div>
-           <div class="card-action">
-             <a href="https://github.com/magentaFire/ejercicio_bootstrap">Ir al repositorio en GitHub</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="col s12 m4">
-         <div class="card">
-           <div class="card-image">
-             <img src="./assets/img/proyecto-directorio.png">
-           </div>
-           <div class="card-action">
-             <a href="https://github.com/magentaFire/directorio-jQuery">Ir al repositorio en GitHub</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="col s12 m4">
-         <div class="card">
-           <div class="card-image">
-             <img src="./assets/img/proyecto-freelancer.png">
-           </div>
-           <div class="card-action">
-             <a href="https://github.com/magentaFire/freelancer_040217">Ir al repositorio en GitHub</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="col s12 m4">
-         <div class="card">
-           <div class="card-image">
-             <img src="./assets/img/proyecto-labcar.png">
-           </div>
-           <div class="card-action">
-             <a href="https://github.com/magentaFire/labcar">Ir al repositorio en GitHub</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="col s12 m4">
-         <div class="card">
-           <div class="card-image">
-             <img src="./assets/img/proyecto-lyft.png">
-           </div>
-           <div class="card-action">
-             <a href="https://github.com/magentaFire/ejercicio_lyft">Ir al repositorio en GitHub</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="col s12 m4">
-         <div class="card">
-           <div class="card-image">
-             <img src="./assets/img/proyecto-pandas.png">
-           </div>
-           <div class="card-action">
-             <a href="https://github.com/magentaFire/pandas_again">Ir al repositorio en GitHub</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="col s12 m4">
-         <div class="card">
-           <div class="card-image">
-             <img src="./assets/img/proyecto-twitter.png">
-           </div>
-           <div class="card-action">
-             <a href="https://github.com/magentaFire/twitter_like">Ir al repositorio en GitHub</a>
-           </div>
-         </div>
-       </div>
-      </div>
-    </div>
-
-    <!-- sección skills -->
-    <div class="row row-no-margin scrollspy" id="habilidades">
-      <div class="row turq-bg row-no-margin">
+      <!-- sección proyectos -->
+      <div class="row white-bg projects-container scrollspy" id="proyectos">
         <div class="row">
           <div class="col 12 m4 offset-m4 center">
-            <h4 class="white-font">Software</h4>
-            <!-- <p class="white-font">
+            <h4 class="magenta-font">Proyectos</h4>
+          </div>
+        </div>
+
+        <div class="row container">
+          <div class="col s12 m4 l4 xl4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/img/proyecto-applove.png">
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/magentaFire/applove_020517">Ir al repositorio en GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4 xl4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/img/proyecto-bootstrap.png">
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/magentaFire/ejercicio_bootstrap">Ir al repositorio en GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4 xl4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/img/proyecto-directorio.png">
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/magentaFire/directorio-jQuery">Ir al repositorio en GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4 xl4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/img/proyecto-freelancer.png">
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/magentaFire/freelancer_040217">Ir al repositorio en GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4 xl4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/img/proyecto-labcar.png">
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/magentaFire/labcar">Ir al repositorio en GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4 xl4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/img/proyecto-lyft.png">
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/magentaFire/ejercicio_lyft">Ir al repositorio en GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4 xl4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/img/proyecto-pandas.png">
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/magentaFire/pandas_again">Ir al repositorio en GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4 xl4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/img/proyecto-twitter.png">
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/magentaFire/twitter_like">Ir al repositorio en GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- sección skills -->
+      <div class="row row-no-margin scrollspy" id="habilidades">
+        <div class="row turq-bg row-no-margin">
+          <div class="row">
+            <div class="col 12 m4 offset-m4 center">
+              <h4 class="white-font">Software</h4>
+              <!-- <p class="white-font">
               Mis principales habilidades giran en torno al sector tech, animación y diseño,
               pero no se limitan únicamente a estos temas, sino que se complementan con diferentes hobbies
               y otras actividades que me gustan. Aquí están las más trascendentes:
-            </p> -->
+              </p> -->
+            </div>
           </div>
-        </div>
 
-        <div class="row row-no-margin">
-          <div class="col s12 m10 offset-m1">
-            <div class="col m6">
-              <ul class="collection with-header">
-                <li class="collection-header magenta-font"><h5>Desarrollo web</h5></li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      HTML5
-                    </span>
-                    <span class="right turq-font">
-                      intermedio-avanzado
-                    </span>
+          <div class="row row-no-margin">
+            <div class="col s12 m10 offset-m1">
+              <div class="col s12 m6 l6 xl6">
+                <ul class="collection with-header">
+                  <li class="collection-header magenta-font">
+                    <h5>Desarrollo web</h5>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        HTML5
+                      </span>
+                      <span class="right turq-font">
+                        intermedio-avanzado
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 65%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      CSS3
-                    </span>
-                    <span class="right turq-font">
-                      intermedio-avanzado
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        CSS3
+                      </span>
+                      <span class="right turq-font">
+                        intermedio-avanzado
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 70%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Javascript
-                    </span>
-                    <span class="right turq-font">
-                      intermedio
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        Javascript
+                      </span>
+                      <span class="right turq-font">
+                        intermedio
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 50%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
+                  </li>
+                  <li class="collection-item">
+                    <div>
+                      <span class="blue-font">
                       jQuery
                     </span>
                     <span class="right turq-font">
@@ -283,7 +287,7 @@
                     </span>
                     <div>
                       <div class="progress">
-                          <div class="determinate" style="width: 50%"></div>
+                        <div class="determinate" style="width: 50%"></div>
                       </div>
                     </div>
                   </div>
@@ -298,7 +302,7 @@
                     </span>
                     <div>
                       <div class="progress">
-                          <div class="determinate" style="width: 20%"></div>
+                        <div class="determinate" style="width: 20%"></div>
                       </div>
                     </div>
                   </div>
@@ -313,7 +317,7 @@
                     </span>
                     <div>
                       <div class="progress">
-                          <div class="determinate" style="width: 40%"></div>
+                        <div class="determinate" style="width: 40%"></div>
                       </div>
                     </div>
                   </div>
@@ -328,232 +332,238 @@
                     </span>
                     <div>
                       <div class="progress">
-                          <div class="determinate" style="width: 65%"></div>
+                        <div class="determinate" style="width: 65%"></div>
                       </div>
                     </div>
                   </div>
                 </li>
-              </ul>
-            </div>
+                </ul>
+              </div>
 
-            <div class="col m6">
-              <ul class="collection with-header">
-                <li class="collection-header magenta-font"><h5>CG & VFX</h5></li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      The foundry Mari
-                    </span>
-                    <span class="right turq-font">
-                      avanzado
-                    </span>
+              <div class="col s12 m6 l6 xl6">
+                <ul class="collection with-header">
+                  <li class="collection-header magenta-font">
+                    <h5>CG & VFX</h5>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        The foundry Mari
+                      </span>
+                      <span class="right turq-font">
+                        avanzado
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 90%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      The foundry Nuke
-                    </span>
-                    <span class="right turq-font">
-                      básico
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        The foundry Nuke
+                      </span>
+                      <span class="right turq-font">
+                        básico
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 10%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Substance designer
-                    </span>
-                    <span class="right turq-font">
-                      intermedio-básico
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        Substance designer
+                      </span>
+                      <span class="right turq-font">
+                        intermedio-básico
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 40%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Substance Painter
-                    </span>
-                    <span class="right turq-font">
-                      básico
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        Substance Painter
+                      </span>
+                      <span class="right turq-font">
+                        básico
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 30%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Autodesk Mudbox
-                    </span>
-                    <span class="right turq-font">
-                      intermedio-avanzado
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        Autodesk Mudbox
+                      </span>
+                      <span class="right turq-font">
+                        intermedio-avanzado
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 65%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Autodesk Maya
-                    </span>
-                    <span class="right turq-font">
-                      básico
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        Autodesk Maya
+                      </span>
+                      <span class="right turq-font">
+                        básico
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 40%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Marvelous Designer
-                    </span>
-                    <span class="right turq-font">
-                      intermedio
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        Marvelous Designer
+                      </span>
+                      <span class="right turq-font">
+                        intermedio
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 60%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      UV Layout
-                    </span>
-                    <span class="right turq-font">
-                      avanzado
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
+                      <span class="blue-font">
+                        UV Layout
+                      </span>
+                      <span class="right turq-font">
+                        avanzado
+                      </span>
+                      <div>
+                        <div class="progress">
                           <div class="determinate" style="width: 80%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
+                  </li>
+                </ul>
+              </div>
 
-            <div class="col m6">
-              <ul class="collection with-header">
-                <li class="collection-header magenta-font"><h5>Diseño</h5></li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Photoshop
-                    </span>
-                    <span class="turq-font right">
-                      intermedio-avanzado
-                    </span>
+              <div class="col s12 m6 l6 xl6">
+                <ul class="collection with-header">
+                  <li class="collection-header magenta-font">
+                    <h5>Diseño</h5>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
-                        <div class="determinate" style="width: 70%"></div>
+                      <span class="blue-font">
+                        Photoshop
+                      </span>
+                      <span class="turq-font right">
+                        intermedio-avanzado
+                      </span>
+                      <div>
+                        <div class="progress">
+                          <div class="determinate" style="width: 70%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Illustrator
-                    </span>
-                    <span class="turq-font right">
-                      intermedio
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
-                        <div class="determinate" style="width: 60%"></div>
+                      <span class="blue-font">
+                        Illustrator
+                      </span>
+                      <span class="turq-font right">
+                        intermedio
+                      </span>
+                      <div>
+                        <div class="progress">
+                          <div class="determinate" style="width: 60%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      After Effects
-                    </span>
-                    <span class="turq-font right">
-                      básico
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
-                        <div class="determinate" style="width: 30%"></div>
+                      <span class="blue-font">
+                        After Effects
+                      </span>
+                      <span class="turq-font right">
+                        básico
+                      </span>
+                      <div>
+                        <div class="progress">
+                          <div class="determinate" style="width: 30%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Premiere
-                    </span>
-                    <span class="turq-font right">
-                      básico
-                    </span>
+                  </li>
+                  <li class="collection-item">
                     <div>
-                      <div class="progress">
-                        <div class="determinate" style="width: 30%"></div>
+                      <span class="blue-font">
+                        Premiere
+                      </span>
+                      <span class="turq-font right">
+                        básico
+                      </span>
+                      <div>
+                        <div class="progress">
+                          <div class="determinate" style="width: 30%"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
+                  </li>
+                </ul>
+              </div>
 
-            <div class="col m6">
-              <ul class="collection with-header">
-                <li class="collection-header magenta-font"><h5>Otros intereses</h5></li>
-                <li class="collection-item">
-                  <div>
-                    <span class="blue-font">
-                      Fotografía, moda, ilustración, tatuaje, Arte y cultura, cine, VFX, música, ciclismo, steampunk, cyberpunk, dieselpunk, videojuegos
-                    </span>
-                  </div>
-                </li>
-              </ul>
+              <div class="col s12 m6 l6 xl6">
+                <ul class="collection with-header">
+                  <li class="collection-header magenta-font">
+                    <h5>Otros intereses</h5>
+                  </li>
+                  <li class="collection-item">
+                    <div>
+                      <span class="blue-font">
+                        Fotografía, moda, ilustración, tatuaje, Arte y cultura, cine, VFX, música, ciclismo, steampunk, cyberpunk, dieselpunk, videojuegos
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </main>
 
   <footer class="page-footer magenta-bg">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-font">Contáctame!   :D</h5>
+          <h5 class="white-font">Contáctame! :D</h5>
           <p class="white-font">
-            Puedes ver mi trabajo en gitHub y vimeo o ver mi perfil laboral en LinkedIn; y si te interesa
-            hacer comunidad contáctame a mi correo o facebook ñ.ñ
+            Puedes ver mi trabajo en gitHub y vimeo o ver mi perfil laboral en LinkedIn y si te interesa hacer comunidad contáctame
+            a mi correo o facebook ñ.ñ
           </p>
         </div>
         <div class="col l4 offset-l2 s12">
@@ -585,7 +595,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-       2017 Dafne Magenta Luna Casanueva
+        2017 Dafne Magenta Luna Casanueva
       </div>
     </div>
   </footer>
@@ -596,5 +606,7 @@
   <script src="https://use.fontawesome.com/8880554dc4.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 </body>
+
 </html>
